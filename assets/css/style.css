@@ -13,25 +13,11 @@
       color: #39a6b2;
       width: 80%;
       font-size: 20px;
-
+      margin: 0 auto;
    }
 
-   .intro p {
-       /* add this alongside your other declarations */
-       margin: 0 auto;
-   }
-
-  .intro h2 {
-      /* add this alongside your other declarations */
-      display: inline-block;
-      font-size: 55px;
-      color: #024e76;
-      margin-bottom: 35px;
-      padding: 0 100px 20px 100px;
-      border-bottom: 3px solid;
-      border-color: #fce138;
-  }
-
+  
+    
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -155,6 +141,58 @@ section {
 }
 /* Hero Style end */
 
+/* What you do section*/
+
+.steps {
+    text-align: center;
+    background-color: #fce138;
+}
+
+
+/* Code Dup Consolidation for .intro h2 and .steps h2*/
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* clean up code */
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.step span {
+    font-size: 38px;
+}
 
 
 

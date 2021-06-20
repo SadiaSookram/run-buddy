@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     }
+
 /* Center text in intro*/
   .intro {
       text-align: center;
@@ -148,9 +149,6 @@ section {
     background-color: #fce138;
 }
 
-
-/* Code Dup Consolidation for .intro h2 and .steps h2*/
-
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -250,12 +248,11 @@ text-align: left;
 .contact {
     text-align: center;
     background: #024e76;
-    
-}
 
+}
 .contact-info{
     text-align: center;
-    background-color: #024e76;
+    background-color: #024e76
 }
 
 .contact-info iframe {
@@ -292,9 +289,6 @@ text-align: left;
 .contact-info a {
     color: #fce138
 }
-
-
-
 
 
 /* reach out style end */

@@ -3,9 +3,7 @@
 
     <head>
 <meta charset="utf-8" />
-
 <link rel="stylesheet" href="./assets/css/style.css" />
-
 <title>Run Buddy</title>
     </head>
     
@@ -22,14 +20,14 @@
        <li>   
          <!--Anchor element--> 
          <a href="#what-we-do">What We Do</a>
-       </li>
-      <li>
+         </li>
+         <li>
         <a href="#what-you0do">What You Do</a>
-      </li> 
-      <li>
+         </li> 
+         <li>
         <a href="#your-trainers">Your Trainers</a>
-      </li>
-      <li> 
+        </li>
+        <li> 
         <a href="#reach-out">Reach Out</a>
       </li>
  </ul>
@@ -121,8 +119,6 @@
             </div>
             </div>
             </div>
-    
-            <div>
                 <!--insert img element-->
                 <div class="step">
                 <h3> Step 2:</h3>
@@ -169,12 +165,12 @@
     </section>
 
     <!-- "meet the trainers" section-->
-   <div class="trainers">
     <section id="your-trainers">
         <div class="flex-row">
         <h2 class="section-title primary-border">Meet The Trainers</h2>
         </div>
-        <article class="trainer">
+        <div class="trainers">
+            <article class="trainer">
             <img src="./assets/images/trainer-1.jpg" alt="Arron stephens in his workout clothes, ready to pump iorn"/>
             <div class="trainer-bio">
                 <h3 class="trainer-name">Arron Stephens</h3>
@@ -211,34 +207,15 @@
                   </p>
                </div>
           </article>
+        </div>
     </section>
-</div>
     <!-- "reach out" section-->
     <section id="reach-out" class="contact">
         <div class="flex-row">
-        <h2 class="section-title secondary-border">Reach Out</h2>
-        </div>
-        
-        <div class="contact-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.364889592695!2d-81.1549846849259!3d28.256950582567313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ddf325454fba79%3A0x13937f9e136c1e1d!2sSundance%20Dr%2C%20Florida%2034771!5e0!3m2!1sen!2sus!4v1624137165731!5m2!1sen!2sus" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-            </iframe>"
-            <!--Contact form addition -->
-            <div class="contact-form">
-                <h3>Contact Us</h3>
-                <form>
-                   <label for="contact-name">Your Name</label>
-                   <input type="text" id="contact-name" placeholder="Your Name" />
-              
-                   <label for="contact-message">Message</label>
-                   <textarea id="contact-message" placeholder="Message"></textarea>
-              
-                   <button type="submit">Submit</button>
-                  </form>
-              </div>
-         <div>
+            <h2 class="section-title secondary-border">Reach Out</h2>
+            <div>
+            <div class="contact-info">
+                <div>
             <h3>Run Buddy</h3>
             <p>
                 Any questions or concerns before signing up?
@@ -255,9 +232,28 @@
             </address>
             
         </div>
-        </div>
-
-    </section>
+        
+        
+            <!--Contact form addition -->
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form>
+                   <label for="contact-name">Your Name</label>
+                   <input type="text" id="contact-name" placeholder="Your Name" />
+              
+                   <label for="contact-message">Message</label>
+                   <textarea id="contact-message" placeholder="Message"></textarea>
+              
+                   <button type="submit">Submit</button>
+                  </form>
+              </div>
+              <div class="contact-info">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.364889592695!2d-81.1549846849259!3d28.256950582567313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ddf325454fba79%3A0x13937f9e136c1e1d!2sSundance%20Dr%2C%20Florida%2034771!5e0!3m2!1sen!2sus!4v1624137165731!5m2!1sen!2sus" 
+                style="border:0;" 
+                allowfullscreen="">
+                </iframe>"
+                </div>
+            </section>
 
     <!-- footer -->
     <footer>
@@ -267,6 +263,6 @@
          &copy; 2019 Run Buddy, Inc.
      </div>
     </footer>
-    
+    <!--foot end-->
    </body>
 </html>
